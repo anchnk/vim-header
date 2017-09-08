@@ -13,6 +13,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Modified date by field
 - New algorithm for updating headers allowing them to be updated within a range (g:header_max_size global option)
 - Align headers values to longer header name(g:header_alignment)
+- Add new header for file's location (g:header_field_location)
 
 ### Fixed
 - Make plugin determine file type for each call to catch new file type if changed

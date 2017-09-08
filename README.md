@@ -104,6 +104,7 @@ Settings related to **headers' fields**:
 - [`g:header_field_modified_timestamp`](#gheader_field_modified_timestamp)
 - [`g:header_field_modified_by`](#gheader_field_modified_by)
 - [`g:header_field_timestamp_format`](#gheader_field_timestamp_format)
+- [`g:header_field_location`](#gheader_field_location)
 
 Settings related to **supported filetypes**:
 
@@ -208,8 +209,16 @@ g:header_field_timestamp_format
 ```vim
 let g:header_field_timestamp_format = '%d.%m.%Y'
 ```
-
 Sets timestamp format. **`%d.%m.%Y` by default**.
+
+g:header_field_location
+-----------------------
+
+```vim
+let g:header_field_location = 1
+```
+
+Toggles `Location:` header field. **0 by default**.
 
 g:header_cfg_comment_char
 -------------------------
